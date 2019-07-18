@@ -1,0 +1,166 @@
+.blog-body {
+  background: url(../img/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  margin: 0px;
+  ;
+}
+.navbar{
+  background-color: rgba(8, 45, 94, 0.95);
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+    }
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.container-fluid {
+  margin-top: 73px;
+}
+
+
+.fondo2 {
+  background: url(../img/fondo2.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 88px !important;
+  margin-left: 0px;
+}
+
+.fondo2-img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.fondo2-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.redes-sociales {
+  margin-top: 5px;
+  text-align: right;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+.img-movies {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+.welcome-title {
+  color: white;
+  margin: center;
+  background-color: rgba(8, 45, 94, 0.5);
+}
+
+
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+.desc1{
+background-color: rgba(8, 45, 94, 0.5);
+color: white;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.user_data {
+  margin-top: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.input-element {
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+}
+
+.logo-img {
+  border-radius: 6px;
+  margin-bottom: -40px !important;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+
+@media (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-text {
+    font-size: 15px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+
+  .fondo2 {
+    min-height: 380px;
+  }
+
+  .fondo2-img {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+}
